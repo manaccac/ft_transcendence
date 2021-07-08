@@ -51,10 +51,27 @@ header li a{
 #logo {
 	font-weight: bold;
 	float: left;
+	margin-left: 10vh;
 }
 
-#barderoulante {
-	float: left;
+#burger {
+	position: absolute;
+    left: 0.8vw;
+    display: flex;
+    flex-direction: column;
+	justify-content: space-around;
+	height: 8vh;
+    background: transparent;
+    border: none;
+	cursor: pointer;
+	padding: 2.3vh 2vw;
+}
+
+#burger div {
+	width: 2.8vw;
+    height: 0.4vw;
+    background: rgb(96, 125, 139);
+	position: relative;
 }
 
 #useronline {
@@ -62,17 +79,17 @@ header li a{
     display: flex;
     align-items: center;
     float: left;
-    height: 34px;
-    margin: 13px 19px;
-    border-radius: 5px;
-    font-size: 16px;
+    height: 5vh;
+    margin: 1vh 3vw;
+    border-radius: 1vh;
+    font-size: 2.5vh;
     text-align: center;
-    padding: 0px 10px;
+    padding: 0px 1.5vw;
 }
 
 #useronline img {
-	width: 50%; 
-	height: 100%;
+	width: 6vw; 
+	height: 5vh;
 	align-items: center;
 }
 
