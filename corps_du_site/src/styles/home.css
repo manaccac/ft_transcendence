@@ -1,0 +1,96 @@
+html {
+	background-color: #566573;
+	color: rgba(255, 255, 255, 0.575);
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+h2 {
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 7vh;
+	font-size: 2em;
+}
+header a {
+	text-decoration: none;
+}
+
+/* *************************** NAVBAR ************************** */
+header nav {
+	overflow: hidden;
+	background-color: #2C3E50;
+	top: 0px;
+	position: fixed;
+	width: 100%;
+}
+header li{
+	float: right;
+	font-size: 3vh;
+	color: #E59866;
+	display: block;
+	text-align: center;
+	margin: 2vh 1.5vh;
+}
+
+header li a{
+	color: #E59866;
+}
+
+#logo {
+	font-weight: bold;
+	float: left;
+}
+
+#barderoulante {
+	float: left;
+}
+
+#useronline {
+	background: rgb(34, 44, 49);
+    display: flex;
+    align-items: center;
+    float: left;
+    height: 34px;
+    margin: 13px 19px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+#useronline img {
+	width: 50%; 
+	height: 100%;
+	align-items: center;
+}
+
+/* *************************** HOME ************************** */
+
+/* *************************** FOOTER ************************** */
+
+footer {
+	background-color: #2C3E50;
+	color: #E59866;
+	text-align: center;
+	bottom:0;
+	width:100%;
+	font-size: 2.4vh;
+}
+
+#icons a {
+	color: white;
+	margin: 0 2vh;
+	font-size: 2vh;
+}
