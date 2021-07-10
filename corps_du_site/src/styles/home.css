@@ -1,11 +1,15 @@
 html {
-	background-color: #566573;
-	color: rgba(255, 255, 255, 0.575);
+	background-color: #2A455E;
+	color: #EDDCD1;
 }
 
 body {
 	padding: 0;
 	margin: 0;
+}
+
+p {
+	color: #C4B6AD;
 }
 
 ul {
@@ -30,23 +34,23 @@ header a {
 /* *************************** NAVBAR ************************** */
 header nav {
 	overflow: hidden;
-	background-color: #2C3E50;
+	background-color: #1D3142;
 	top: 0px;
 	position: fixed;
 	width: 100%;
-	z-index: 2;
+	z-index: 3;
 }
 header li{
 	float: right;
 	font-size: 3vh;
-	color: #E59866;
+	color: #BD6D30;
 	display: block;
 	text-align: center;
 	margin: 2vh 1.5vh;
 }
 
 header li a{
-	color: #E59866;
+	color: #BD6D30;
 }
 
 #logo {
@@ -78,7 +82,7 @@ header li a{
 }
 
 #menu-cb:checked {
-	box-shadow: rgb(20 20 20 / 75%) 100vh 100vh 0px 100vh;
+	box-shadow: rgb(20 20 20 / 40%) 1000vh 1000vh 0px 1000vh;
 	z-index: 1;
 }
 
@@ -88,13 +92,12 @@ header li a{
 	position: fixed;
 	left: 0;
 	top: 7vh;
-	background-color: #2C3E50;
+	background-color: #2A455E;
 	height: 100%;
 	width: 90%;
 	max-width: 40vh;
-	padding: 1em;
 	transform: translateX(-100%);
-	transition: 0.5s linear;
+	transition: 0.3s linear;
 	z-index: 2;
 	
 }
@@ -105,19 +108,25 @@ header li a{
 
 
 .menu-lien {
+	margin-top: 3vh;
+	margin-left: 5vh;
 	text-decoration: none;
-	font-weight: bold;
-	text-transform: uppercase;
-	color: #E59866;
-	font-size: 5vh;
+	color: #C4B6AD;
+	font-size: 4vh;
 
-	margin-bottom: 6vh;
+	margin-bottom: 4vh;
 	display: flex;
 
-	background-color: rgb(73, 95, 106);
+	/*background-color: rgb(73, 95, 106);
 	border-width: 2px;
+	border-radius: 1vh;
 	border-style: solid;
-	border-color: black;
+	border-color: black;*/
+}
+
+.menu-lien:hover {
+	box-shadow: 20vw 0px 0px rgb(29 49 66 / 20%) inset;
+	color: #BD6D30;
 }
 
 .menu-cb:checked ~ .menu-nav {
@@ -149,7 +158,7 @@ header li a{
 
 footer {
 	background-color: #2C3E50;
-	color: #E59866;
+	color: #BD6D30;
 	text-align: center;
 	bottom:0;
 	width:100%;
