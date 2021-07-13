@@ -102,14 +102,14 @@ header li a{
 	
 }
 
-.menu-item {
-
+.img-menu {
+	height: 5vh;
+	margin-right: 2vh;
 }
-
 
 .menu-lien {
 	margin-top: 3vh;
-	margin-left: 5vh;
+	margin-left: 3vh;
 	text-decoration: none;
 	color: #C4B6AD;
 	font-size: 4vh;
@@ -125,7 +125,7 @@ header li a{
 }
 
 .menu-lien:hover {
-	box-shadow: 20vw 0px 0px rgb(29 49 66 / 20%) inset;
+	box-shadow: 50vh 0px 0px rgb(29 49 66 / 20%) inset;
 	color: #BD6D30;
 }
 
@@ -162,11 +162,11 @@ footer {
 	text-align: center;
 	bottom:0;
 	width:100%;
-	font-size: 2.4vh;
+	font-size: 1.3vh;
 }
 
 #icons a {
 	color: white;
 	margin: 0 2vh;
-	font-size: 2vh;
+	font-size: 2.5vh;
 }
