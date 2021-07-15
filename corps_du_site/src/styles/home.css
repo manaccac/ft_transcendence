@@ -9,6 +9,8 @@ body {
 }
 
 p {
+	margin-left: 2vh;
+	margin-right: 2vh;
 	color: #C4B6AD;
 }
 
@@ -87,7 +89,7 @@ header li a{
 	height: 100%;
 	width: 90%;
 	max-width: 40vh;
-	left: -30%;
+	left: -100%;
 
 	transition: 0.5s ease-out;
 }
@@ -150,6 +152,52 @@ header li a{
 }
 
 /* *************************** HOME ************************** */
+
+#the-box {
+	margin-left: 10vw;
+	margin-right: 15vw;
+	margin-top: 10vh;
+	width: 80vw;
+	height: 30vh;
+	border-radius: 3vh;
+	background-color: #612E24;
+	opacity: 0.2;
+}
+
+#deuxieme-place {
+	position: relative;
+	top: 15vh;
+	left: 10vw;
+	
+	width: 20vw;
+	height: 15vh;
+	border-top-left-radius: 1.5vh;
+	background-color: pink;
+}
+
+#premiere-place {
+	position: relative;
+	top: -7vh;
+	left: 30vw;
+	
+	width: 20vw;
+	height: 22vh;
+	border-top-left-radius: 1.5vh;
+	border-top-right-radius: 1.5vh;
+	background-color: white;
+}
+
+#troisieme-place {
+	position: relative;
+	top: -17vh;
+	left: 50vw;
+	
+	width: 20vw;
+	height: 10vh;
+	border-top-right-radius: 1.5vh;
+	background-color: black;
+}
+
 
 /* *************************** FOOTER ************************** */
 
