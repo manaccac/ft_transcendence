@@ -35,11 +35,11 @@ header a {
 
 /* *************************** NAVBAR ************************** */
 #top-bar {
-	overflow: hidden;
 	background-color: #1D3142;
 	top: 0px;
 	position: fixed;
 	width: 100%;
+	height: 8%;
 	z-index: 3;
 }
 
@@ -47,8 +47,7 @@ header a {
 	float: right;
 	font-size: 3vh;
 	color: #BD6D30;
-	display: block;
-	margin: 2vh 1.5vh;
+	display: flex;
 }
 
 header li a{
@@ -56,9 +55,25 @@ header li a{
 }
 
 #logo {
-	font-weight: bold;
 	float: left;
 	margin-left: 10vh;
+	margin-top: 0.8vh;
+}
+
+#name-site {
+	position: relative;
+	font-weight: bold;
+	float: left;
+
+	top: 2vh;
+	margin-left: 1vh;
+	font-size: 3vh;
+
+}
+
+#logo-img {
+	width: 8vh;
+	height: 6vh;
 }
 
 #useronline {
@@ -78,6 +93,10 @@ header li a{
 	width: 6vh; 
 	height: 5vh;
 	align-items: center;
+}
+
+#profile {
+	margin-top: 2vh;
 }
 
 /* *************************** MENU BURGER ************************** */
@@ -157,11 +176,13 @@ header li a{
 	margin-left: 10vw;
 	margin-right: 15vw;
 	margin-top: 10vh;
+	margin-bottom: 3vh;
 	width: 80vw;
 	height: 30vh;
 	border-radius: 3vh;
-	background-color: #612E24;
-	opacity: 0.2;
+	/*background-color: #612E24;
+	opacity: 0.2;*/
+	background-color: rgb(54, 64, 83);
 }
 
 #deuxieme-place {
@@ -172,7 +193,15 @@ header li a{
 	width: 20vw;
 	height: 15vh;
 	border-top-left-radius: 1.5vh;
-	background-color: pink;
+	/*background-color: pink;*/
+	background-color: rgb(91, 96, 117);
+}
+#deuxieme-place li {
+	position: relative;
+
+	text-align: center;
+	top: 3vh;
+	color: #C0C0C0;
 }
 
 #premiere-place {
@@ -184,7 +213,15 @@ header li a{
 	height: 22vh;
 	border-top-left-radius: 1.5vh;
 	border-top-right-radius: 1.5vh;
-	background-color: white;
+	/*background-color: white;*/
+	background-color: rgb(91, 110, 128);
+}
+#premiere-place li {
+	position: relative;
+
+	text-align: center;
+	top: 3vh;
+	color: #D4AF37;
 }
 
 #troisieme-place {
@@ -195,9 +232,16 @@ header li a{
 	width: 20vw;
 	height: 10vh;
 	border-top-right-radius: 1.5vh;
-	background-color: black;
+	/*background-color: black;*/
+	background-color: rgb(33, 55, 75);
 }
+#troisieme-place li {
+	position: relative;
 
+	text-align: center;
+	top: 3vh;
+	color: #A07155;
+}
 
 /* *************************** FOOTER ************************** */
 
