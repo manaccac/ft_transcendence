@@ -97,6 +97,7 @@ header li a{
 
 #profile {
 	margin-top: 2vh;
+	margin-right: 3vh;
 }
 
 /* *************************** MENU BURGER ************************** */
@@ -172,7 +173,10 @@ header li a{
 
 /* *************************** HOME ************************** */
 
+
+/* *************************** PODIUM ************************** */
 #the-box {
+	font-size: 2.3vh;
 	margin-left: 10vw;
 	margin-right: 15vw;
 	margin-top: 10vh;
@@ -201,7 +205,7 @@ header li a{
 
 	text-align: center;
 	top: 3vh;
-	color: #C0C0C0;
+	color: silver;
 }
 
 #premiere-place {
@@ -221,7 +225,7 @@ header li a{
 
 	text-align: center;
 	top: 3vh;
-	color: #D4AF37;
+	color: gold;
 }
 
 #troisieme-place {
@@ -241,6 +245,104 @@ header li a{
 	text-align: center;
 	top: 3vh;
 	color: #A07155;
+}
+
+/* *************************** Challenge ************************** */
+
+#box-challenge {
+	margin-top: 5vh;
+	margin-left: 8vw;
+	margin-right: 8vw;
+	margin-bottom: 5vh;
+	height: 51vh;
+	width: 84vw;
+	border-radius: 3vh;
+	background-color: rgb(54, 64, 83);
+}
+
+#challenge-bar {
+	margin-left: 35%;
+	margin-right: 35%;
+	width: 30%;
+	height: 5%;
+	border-radius: 45%;
+
+	background-color: #1D3142;
+}
+
+#chall-avance {
+	text-align: center;
+	font-weight: bold;
+	font-size: 2vh;
+	color: #BD6D30;
+}
+
+/*   CHALL 6 BOX   */
+
+#chall-top-left {
+
+	margin-top: 1vh;
+	border-radius: 0.5vh;
+	background-color: #3D6387;
+	height: 29%;
+	width: 49%;
+}
+
+#chall-top-right {
+	position: relative;
+	bottom: 31%;
+	left: 51%;
+	margin-top: 1vh;
+	border-radius: 0.5vh;
+	background-color: #3D6387;
+	height: 29%;
+	width: 49%;
+}
+
+#chall-mid-left {
+
+	position: relative;
+	bottom: 32%;
+
+	margin-top: 1vh;
+	border-radius: 0.5vh;
+	background-color: #3D6387;
+	height: 29%;
+	width: 49%;
+}
+
+#chall-mid-right {
+	position: relative;
+	bottom: 63%;
+	left: 51%;
+	margin-top: 1vh;
+	border-radius: 0.5vh;
+	background-color: #3D6387;
+	height: 29%;
+	width: 49%;
+}
+
+#chall-bot-left {
+
+	position: relative;
+	bottom: 64%;
+	
+	margin-top: 1vh;
+	border-radius: 0.5vh;
+	background-color: #3D6387;
+	height: 29%;
+	width: 49%;
+}
+
+#chall-bot-right {
+	position: relative;
+	bottom: 95%;
+	left: 51%;
+	margin-top: 1vh;
+	border-radius: 0.5vh;
+	background-color: #3D6387;
+	height: 29%;
+	width: 49%;
 }
 
 /* *************************** FOOTER ************************** */
