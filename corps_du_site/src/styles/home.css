@@ -250,6 +250,11 @@ header li a{
 /* *************************** Game name ************************** */
 
 #title-game {
+	line-height: 5.25vh;
+
+	font-size: 4vh;
+	font-weight: bold;
+
 	position: relative;
 	text-align: center;
 	font-weight: bold;
@@ -320,6 +325,9 @@ header li a{
 /* *************************** Game choose ************************** */
 
 #choose-game {
+	font-size: 2.5vh;
+	font-weight: bold;
+	
 	position: relative;
 
 	margin-left: 10%;
@@ -331,17 +339,27 @@ header li a{
 
 	background-color: yellow;
 }
+#choose-game :hover{
+	transition: 0.5s;
+	background-color: #EDDCD1;
+	
+	transform: scale(1.2);
+	color: #BD6D30;
+}
 
 #boutton-normal {
+	transition: 0.5s;
+	text-align: center;
+	line-height: 5.25vh;
 
 	position: relative;
 	cursor: pointer;
 
 	top: 2.5vh;
-	margin-left: 1.5vw;
+	margin-left: 10%;
 	
 	height: 5vh;
-	width: 25vw;
+	width: 15vw;
 
 	border-radius: 1vh;
 	
@@ -349,17 +367,19 @@ header li a{
 }
 
 #boutton-ranked {
+	transition: 0.5s;
 	text-align: center;
+	line-height: 5.25vh;
 
 	position: relative;
 	cursor: pointer;
 
 	margin-left: 1.5vw;
-	left: 26vw;
+	left: 40%;
 	bottom: 2.5vh;
 	
 	height: 5vh;
-	width: 25vw;
+	width: 15vw;
 
 	border-radius: 1vh;
 	
@@ -367,15 +387,19 @@ header li a{
 }
 
 #boutton-mod {
+	transition: 0.5s;
+	text-align: center;
+	line-height: 5.25vh;
+
 	position: relative;
 	cursor: pointer;
 
 	margin-left: 1.5vw;
-	left: 52vw;
+	left: 70%;
 	bottom: 7.5vh;
 	
 	height: 5vh;
-	width: 25vw;
+	width: 15vw;
 
 	border-radius: 1vh;
 	
