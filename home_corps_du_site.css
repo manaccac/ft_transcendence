@@ -1,0 +1,537 @@
+html {
+	background-color: #2A455E;
+	color: #EDDCD1;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	margin-left: 2vh;
+	margin-right: 2vh;
+	color: #C4B6AD;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+h2 {
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 7vh;
+	font-size: 2em;
+}
+header a {
+	text-decoration: none;
+}
+
+/* *************************** NAVBAR ************************** */
+#top-bar {
+	background-color: #1D3142;
+	top: 0px;
+	position: fixed;
+	width: 100%;
+	height: 8%;
+	z-index: 3;
+}
+
+.top-lien{
+	float: right;
+	font-size: 3vh;
+	color: #BD6D30;
+	display: flex;
+}
+
+header li a{
+	color: #BD6D30;
+}
+
+#logo {
+	float: left;
+	margin-left: 10vh;
+	margin-top: 0.8vh;
+}
+
+#name-site {
+	position: relative;
+	font-weight: bold;
+	float: left;
+
+	top: 2vh;
+	margin-left: 1vh;
+	font-size: 3vh;
+
+}
+
+#logo-img {
+	width: 8vh;
+	height: 6vh;
+}
+
+#useronline {
+	background: rgb(34, 44, 49);
+    display: flex;
+    align-items: center;
+    float: left;
+    height: 5vh;
+    margin: 1vh 3vh;
+    border-radius: 1vh;
+    font-size: 2.5vh;
+    text-align: center;
+    padding: 0px 1.5vh;
+}
+
+#useronline img {
+	width: 6vh; 
+	height: 5vh;
+	align-items: center;
+}
+
+#profile {
+	margin-top: 2vh;
+	margin-right: 3vh;
+}
+
+/* *************************** MENU BURGER ************************** */
+
+#side-bar {
+	position: fixed;
+	top: 7.3vh;
+	background-color: #2A455E;
+	height: 100%;
+	width: 90%;
+	max-width: 40vh;
+	left: -100%;
+
+	transition: 0.5s ease-out;
+}
+
+.toggle-button {
+	position: fixed;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+
+.toggle-button span {
+	width: 6vh;
+	height: 0.7vh;
+	border-radius: 0.5vh;
+	background: rgb(96, 125, 139);
+	display: block;
+	margin-top: 1.2vh;
+	margin-left: 1vh;
+	transition: 0.5s ease;
+}
+
+.menu-lien {
+	text-decoration: none;
+	color: #C4B6AD;
+	margin-top: 3vh;
+	margin-left: 3vh;
+	font-size: 4vh;
+	display: flex;
+}
+
+.img-menu {
+	height: 5vh;
+	margin-right: 2vh;
+}
+
+#side-bar.active {
+	box-shadow: rgb(20 20 20 / 40%) 1000vh 1000vh 0px 1000vh;
+	left: 0;
+}
+
+#side-bar.active span {
+	margin-top: 3vh;
+	position: absolute;
+}
+
+#side-bar.active span:nth-child(1) {
+	transform: rotate(45deg);
+}
+#side-bar.active span:nth-child(2) {
+	opacity: 0;
+}
+#side-bar.active span:nth-child(3) {
+	transform: rotate(-45deg);
+}
+
+.menu-lien:hover {
+	box-shadow: 50vh 0px 0px rgb(29 49 66 / 20%) inset;
+	color: #BD6D30;
+}
+
+/* *************************** HOME ************************** */
+
+
+/* *************************** PODIUM ************************** */
+#the-box {
+	font-size: 2.3vh;
+	margin-left: 10vw;
+	margin-right: 15vw;
+	margin-top: 10vh;
+	margin-bottom: 3vh;
+	width: 80vw;
+	height: 30vh;
+	border-radius: 3vh;
+	/*background-color: #612E24;
+	opacity: 0.2;*/
+	background-color: rgb(54, 64, 83);
+}
+
+#deuxieme-place {
+	position: relative;
+	top: 15vh;
+	left: 10vw;
+	
+	width: 20vw;
+	height: 15vh;
+	border-top-left-radius: 1.5vh;
+	/*background-color: pink;*/
+	background-color: rgb(91, 96, 117);
+}
+#deuxieme-place li {
+	position: relative;
+
+	text-align: center;
+	top: 3vh;
+	color: silver;
+}
+
+#premiere-place {
+	position: relative;
+	top: -7vh;
+	left: 30vw;
+	
+	width: 20vw;
+	height: 22vh;
+	border-top-left-radius: 1.5vh;
+	border-top-right-radius: 1.5vh;
+	/*background-color: white;*/
+	background-color: rgb(91, 110, 128);
+}
+#premiere-place li {
+	position: relative;
+
+	text-align: center;
+	top: 3vh;
+	color: gold;
+}
+
+#troisieme-place {
+	position: relative;
+	top: -17vh;
+	left: 50vw;
+	
+	width: 20vw;
+	height: 10vh;
+	border-top-right-radius: 1.5vh;
+	/*background-color: black;*/
+	background-color: rgb(33, 55, 75);
+}
+#troisieme-place li {
+	position: relative;
+
+	text-align: center;
+	top: 3vh;
+	color: #A07155;
+}
+
+/* *************************** Game name ************************** */
+
+#title-game {
+	line-height: 5.25vh;
+
+	font-size: 4vh;
+	font-weight: bold;
+
+	position: relative;
+	text-align: center;
+	font-weight: bold;
+	
+
+	margin-left: 10%;
+	margin-top: 5%;
+	height: 5vh;
+	width: 80vw;
+
+	border-top-left-radius: 2vh;
+	border-top-right-radius: 2vh;
+	background-color: rgb(54, 64, 83);
+}
+
+/* *************************** Game box ************************** */
+
+#box-game {
+	position: relative;
+
+	margin-left: 10%;
+	height: 30vh;
+	width: 80vw;
+
+
+	background-color: #3D6387;
+}
+
+#left-racket {
+	position: relative;
+
+	margin-left: 3%;
+	top: 3vh;
+
+	height: 7vh;
+	width: 2vh;
+	border-radius: 2vh;
+
+	background-color: #BD6D30;
+}
+
+#right-racket {
+	position: relative;
+
+	left: 94%;
+	top: 10vh;
+
+	height: 7vh;
+	width: 2vh;
+	border-radius: 2vh;
+
+	background-color: #BD6D30;
+}
+
+#ball {
+	position: relative;
+
+	left: 30%;
+	top: 25%;
+
+	height: 2.5vh;
+	width: 2.5vh;
+	border-radius: 100%;
+
+	background-color: black;
+}
+
+/* *************************** Game choose ************************** */
+
+#choose-game {
+	font-size: 2.5vh;
+	font-weight: bold;
+	
+	position: relative;
+
+	margin-left: 10%;
+	height: 10vh;
+	width: 80vw;
+	
+	border-bottom-left-radius: 2vh;
+	border-bottom-right-radius: 2vh;
+
+	background-color: rgb(54, 64, 83);
+}
+#choose-game :hover{
+	transition: 0.5s;
+	background-color: #EDDCD1;
+	
+	transform: scale(1.2);
+	color: #BD6D30;
+}
+
+#boutton-normal {
+	transition: 0.5s;
+	text-align: center;
+	line-height: 5.25vh;
+
+	position: relative;
+	cursor: pointer;
+
+	top: 2.5vh;
+	margin-left: 10%;
+	
+	height: 5vh;
+	width: 15vw;
+
+	border-radius: 1vh;
+	
+	background-color: rgb(91, 110, 128);
+}
+
+#boutton-ranked {
+	transition: 0.5s;
+	text-align: center;
+	line-height: 5.25vh;
+
+	position: relative;
+	cursor: pointer;
+
+	margin-left: 1.5vw;
+	left: 40%;
+	bottom: 2.5vh;
+	
+	height: 5vh;
+	width: 15vw;
+
+	border-radius: 1vh;
+	
+	background-color: rgb(91, 110, 128);
+}
+
+#boutton-mod {
+	transition: 0.5s;
+	text-align: center;
+	line-height: 5.25vh;
+
+	position: relative;
+	cursor: pointer;
+
+	margin-left: 1.5vw;
+	left: 70%;
+	bottom: 7.5vh;
+	
+	height: 5vh;
+	width: 15vw;
+
+	border-radius: 1vh;
+	
+	background-color: rgb(91, 110, 128);
+}
+
+
+/* *************************** Challenge ************************** */
+
+#challenge-bar {
+	position: relative;
+	border-radius: 5vh;
+	top: 0.5vh;
+	margin-left: 25%;
+	width: 50%;
+
+	background-color: #3D6387;
+}
+
+#chall-nb {
+	width: 47.619%;
+	border-radius: 5vh;
+	background-color: #BD6D30;
+	
+	text-align: center;
+	font-size: 2vh;
+}
+
+#box-challenge {
+	margin-top: 5vh;
+	margin-left: 8vw;
+	margin-right: 8vw;
+	margin-bottom: 5vh;
+	height: 51vh;
+	width: 84vw;
+	border-radius: 3vh;
+	background-color: rgb(54, 64, 83);
+}
+
+#chall-avance {
+	text-align: center;
+	font-weight: bold;
+	font-size: 2vh;
+	color: #BD6D30;
+}
+
+/*   CHALL 6 BOX   */
+
+#chall-top-left {
+
+	margin-top: 1vh;
+	margin-left: 4%;
+	border-radius: 0.5vh;
+	background-color: #3D6387;
+	height: 29%;
+	width: 45%;
+}
+
+#chall-top-right {
+	position: relative;
+	bottom: 31%;
+	left: 51%;
+	margin-top: 1vh;
+	border-radius: 0.5vh;
+	background-color: #3D6387;
+	height: 29%;
+	width: 45%;
+}
+
+#chall-mid-left {
+
+	position: relative;
+	bottom: 32%;
+
+	margin-top: 1vh;
+	margin-left: 4%;
+
+	border-radius: 0.5vh;
+	background-color: #3D6387;
+	height: 29%;
+	width: 45%;
+}
+
+#chall-mid-right {
+	position: relative;
+	bottom: 63%;
+	left: 51%;
+	margin-top: 1vh;
+	border-radius: 0.5vh;
+	background-color: #3D6387;
+	height: 29%;
+	width: 45%;
+}
+
+#chall-bot-left {
+
+	position: relative;
+	bottom: 64%;
+	
+	margin-top: 1vh;
+	margin-left: 4%;
+
+	border-radius: 0.5vh;
+	background-color: #3D6387;
+	height: 29%;
+	width: 45%;
+}
+
+#chall-bot-right {
+	position: relative;
+	bottom: 95%;
+	left: 51%;
+	margin-top: 1vh;
+	border-radius: 0.5vh;
+	background-color: #3D6387;
+	height: 29%;
+	width: 45%;
+}
+
+/* *************************** FOOTER ************************** */
+
+footer {
+	background-color: #2C3E50;
+	color: #BD6D30;
+	text-align: center;
+	bottom:0;
+	width:100%;
+	font-size: 1.3vh;
+}
+
+#icons a {
+	color: white;
+	margin: 0 2vh;
+	font-size: 2.5vh;
+}

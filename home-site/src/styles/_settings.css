@@ -1,0 +1,24 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	color: #EDDCD1;
+	background-color: #2A455E;
+}
+li {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+	color: #BD6D30;
+	cursor: pointer;
+}
+a:visited {
+	color: #BD6D30;
+}
+
+a::selection {
+	color: forestgreen;
+}
