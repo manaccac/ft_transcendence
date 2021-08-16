@@ -65,7 +65,8 @@ header li a{
 	font-weight: bold;
 	float: left;
 
-	top: 2vh;
+	top: 1.2vh;
+	margin-right: 1vh;
 	margin-left: 1vh;
 	font-size: 3vh;
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Browser, Switch, Route, BrowserRouter} from "react-router-dom";
 import	{NavLink} from "react-router-dom";
 
 
@@ -39,25 +40,17 @@ window.onload=function(){
 					</div>
 
 					<ul>
-						<li className="menu-item">
+						<BrowserRouter>
 							<a href="#page0" className="menu-lien"><img src="../img/home.svg" 	alt="Home" className="img-menu"/>Home</a>
-						</li>
 
-						<li className="menu-item">
 							<a href="#page1" className="menu-lien"><img src="../img/console.svg" alt="Game" className="img-menu"/>Game</a>
-						</li>
 
-						<li className="menu-item">
 							<a href="#page2" className="menu-lien"><img src="../img/podium.svg" alt="Leaderbord" className="img-menu"/>Leaderbord</a>
-						</li>
 
-						<li className="menu-item">
 							<a href="#page3" className="menu-lien"><img src="../img/trophee.svg" alt="Trophee" className="img-menu"/>Achivement</a>
-						</li>
 
-						<li className="menu-item">
 							<a href="#page4" className="menu-lien"><img src="../img/live-streaming.svg" alt="Live" className="img-menu"/>Live</a>
-						</li>
+						</BrowserRouter>
 					</ul>
 				</div>
 
