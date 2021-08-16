@@ -1,10 +1,13 @@
+import Body_home from "../components/Body_home";
+import Footer from "../components/Footer";
 import Navigation from "../components/Navigation";
 
 const Home = () => {
 	return (
 		<div className="home">
 			<Navigation />
-			<h1>Accueil</h1>
+			<Body_home />
+			<Footer	/>
 		</div>
 	)
 }

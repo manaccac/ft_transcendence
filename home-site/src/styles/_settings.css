@@ -15,10 +15,3 @@ a {
 	color: #BD6D30;
 	cursor: pointer;
 }
-a:visited {
-	color: #BD6D30;
-}
-
-a::selection {
-	color: forestgreen;
-}
