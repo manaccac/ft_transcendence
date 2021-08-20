@@ -179,11 +179,11 @@ header li a{
 	position: relative;
 	right: 50vh;
 	top: 9vh;
-	cursor: pointer;
 }
 
 #img_tchat{
 	height: 4vh;
 	margin-right: 2vh;
 	z-index: 2;
+	cursor: pointer;
 }
