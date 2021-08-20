@@ -16,7 +16,6 @@ const Footer = () => {
 					<div>Icons made by <a href="" title="Good Ware">Good Ware</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
 
-
 					<div id="icons">
 						<a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
 						<a href="https://instagram.com/"><i class="fa fa-instagram"></i></a>

@@ -6,7 +6,6 @@ const Achivement = () => {
 		<div>
 			<Navigation></Navigation>
 			<section className="content">
-				
 			</section>
 		</div>
 	);

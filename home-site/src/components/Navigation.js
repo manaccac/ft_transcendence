@@ -5,16 +5,11 @@ import	{NavLink} from "react-router-dom";
 
 
 const Navigation = () => {
-	//ICI pour la burger menu
-window.onload=function(){
+	function side(){
 	const toggleButton = document.getElementById('toggle-button');
 	const sideBar = document.getElementById('side-bar');
 
-	toggleButton.addEventListener('click', show);
-
-	function show(){
-	  sideBar.classList.toggle('active');
-	}
+	sideBar.classList.toggle('active');
 
 	const content = document.querySelector('.content');
 
@@ -25,17 +20,17 @@ window.onload=function(){
 
 
 	//ICI pour les page selectione
-	const [isActive, setActive] = React.useState(false);
+	function active(){
+		const tchat_button = document.getElementById('tchat-button');
 
- 	 const toggleClass = () => {
-   		 setActive(!isActive);
-  		};
+		tchat_button.classList.toggle('active');
+	}
 
 	return (
 		<div className="navigation">
 			<div id="top-bar">
 				<div id="side-bar">
-					<div className="toggle-button" id="toggle-button">
+					<div className="toggle-button" id="toggle-button" onClick={side}>
 						<span></span>
 						<span></span>
 						<span></span>
@@ -54,10 +49,13 @@ window.onload=function(){
 					</ul>
 				</div>
 
-
 				<li className="top-lien" id="logo"><a href="#"><img src="../img/logo-3.svg" alt="logo" id="logo-img"/> <li id="name-site"> PONGO </li></a></li>
 				<li className="top-lien" id="profile"><a href="#">Log</a></li>
 				<li className="top-lien" id="useronline"> <img src="../img/user_icon.svg" alt="user_online"/> 2218</li>
+
+				<div className="tchat-button" onClick={active}>
+					<img src="../img/tchat.svg" alt="tchat" id="img_tchat"/>
+				</div>
 			</div>
 		</div>
 	);

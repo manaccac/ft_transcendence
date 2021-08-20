@@ -9,7 +9,7 @@ import Leaderbord from './pages/Leaderbord';
 const App = () => {
 	
 	return (
-		<BrowserRouter forceRefresh >
+		<BrowserRouter >
 			<Switch>
 				<Route path="/" exact component={Home} />
 				<Route path="/Game" exact component={Game} />

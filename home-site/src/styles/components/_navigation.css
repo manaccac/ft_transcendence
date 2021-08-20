@@ -113,6 +113,7 @@ header li a{
 	left: -100%;
 
 	transition: 0.5s ease-out;
+	z-index: 3;
 }
 
 .toggle-button {
@@ -170,4 +171,19 @@ header li a{
 .menu-lien:hover {
 	box-shadow: 50vh 0px 0px rgb(29 49 66 / 20%) inset;
 	color: #BD6D30;
+}
+
+/* *************************** Tchat ************************** */
+
+.tchat-button {
+	position: relative;
+	right: 50vh;
+	top: 9vh;
+	cursor: pointer;
+}
+
+#img_tchat{
+	height: 5vh;
+	margin-right: 2vh;
+	z-index: 2;
 }
