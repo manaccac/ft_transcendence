@@ -1,7 +1,7 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
 
-const Live = () => {
+const Leaderbord = () => {
 	return (
 		<div>
 		<Navigation></Navigation>
@@ -12,4 +12,4 @@ const Live = () => {
 	);
 };
 
-export default Live;
+export default Leaderbord;

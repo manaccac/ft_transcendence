@@ -20,7 +20,9 @@ window.onload=function(){
 
 	content.addEventListener('click', () => {
 	  sideBar.classList.remove('active');
-	})}
+	})
+	}
+
 
 	//ICI pour les page selectione
 	const [isActive, setActive] = React.useState(false);
@@ -40,17 +42,15 @@ window.onload=function(){
 					</div>
 
 					<ul>
-						<BrowserRouter>
-							<a href="#page0" className="menu-lien"><img src="../img/home.svg" 	alt="Home" className="img-menu"/>Home</a>
+							<NavLink exact to="/" className="menu-lien"><img src="../img/home.svg" 	alt="Home" className="img-menu"/>Home</NavLink>
 
-							<a href="#page1" className="menu-lien"><img src="../img/console.svg" alt="Game" className="img-menu"/>Game</a>
+							<NavLink exact to="/Game" className="menu-lien"><img src="../img/console.svg" alt="Game" className="img-menu"/>Game</NavLink>
 
-							<a href="#page2" className="menu-lien"><img src="../img/podium.svg" alt="Leaderbord" className="img-menu"/>Leaderbord</a>
+							<NavLink exact to="/Leaderbord" className="menu-lien"><img src="../img/podium.svg" alt="Leaderbord" className="img-menu"/>Leaderbord</NavLink>
 
-							<a href="#page3" className="menu-lien"><img src="../img/trophee.svg" alt="Trophee" className="img-menu"/>Achivement</a>
+							<NavLink exact to="/Achivement" className="menu-lien"><img src="../img/trophee.svg" alt="Trophee" className="img-menu"/>Achivement</NavLink>
 
-							<a href="#page4" className="menu-lien"><img src="../img/live-streaming.svg" alt="Live" className="img-menu"/>Live</a>
-						</BrowserRouter>
+							<NavLink exact to="/Live" className="menu-lien"><img src="../img/live-streaming.svg" alt="Live" className="img-menu"/>Live</NavLink>
 					</ul>
 				</div>
 

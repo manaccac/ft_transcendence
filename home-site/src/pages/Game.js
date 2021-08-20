@@ -1,9 +1,13 @@
 import React from 'react';
+import Navigation from '../components/Navigation';
 
 const Game = () => {
 	return (
 		<div>
-			<h1>Game</h1>
+			<Navigation></Navigation>
+			<section className="content">
+				
+			</section>
 		</div>
 	);
 };

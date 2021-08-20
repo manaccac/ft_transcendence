@@ -1,9 +1,13 @@
 import React from 'react';
+import Navigation from '../components/Navigation';
 
 const Achivement = () => {
 	return (
 		<div>
-			<h1>ACHI</h1>
+			<Navigation></Navigation>
+			<section className="content">
+				
+			</section>
 		</div>
 	);
 };
