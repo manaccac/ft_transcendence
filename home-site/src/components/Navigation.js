@@ -53,7 +53,7 @@ const Navigation = () => {
 				<li className="top-lien" id="profile"><a href="#">Log</a></li>
 				<li className="top-lien" id="useronline"> <img src="../img/user_icon.svg" alt="user_online"/> 2218</li>
 
-				<div className="tchat-button" onClick={active}>
+				<div id="tchat-button" onClick={active}>
 					<img src="../img/tchat.svg" alt="tchat" id="img_tchat"/>
 				</div>
 			</div>

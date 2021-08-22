@@ -175,7 +175,7 @@ header li a{
 
 /* *************************** Tchat ************************** */
 
-.tchat-button {
+#tchat-button {
 	position: relative;
 	right: 50vh;
 	top: 9vh;
