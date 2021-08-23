@@ -180,7 +180,7 @@ header li a{
 	top: 8vh;
 	background-color: wheat;
 	height: 100vh;
-	width: 20vw;
+	width: 17vw;
 	min-width: 10vh;
 	left: -20vw;
 
@@ -204,5 +204,5 @@ header li a{
 }
 
 .tchat-open #img_tchat{
-	left: 21vw;
+	left: 17.5vw;
 }
