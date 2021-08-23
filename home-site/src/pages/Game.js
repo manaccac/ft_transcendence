@@ -6,7 +6,8 @@ const Game = () => {
 		<div>
 			<Navigation></Navigation>
 			<section className="content">
-				
+				<div id="Game-block">
+				</div>
 			</section>
 		</div>
 	);

@@ -26,6 +26,12 @@ const Navigation = () => {
 		tchat_button.classList.toggle('tchat-open');
 	}
 
+	function G_block(){
+		const menu_game= document.getElementById('menu-game');
+
+		menu_game.classList.toggle('Game-open');
+	}
+
 	return (
 		<div className="navigation">
 			<div id="top-bar">
@@ -37,7 +43,11 @@ const Navigation = () => {
 					</div>
 
 					<ul>
-							<NavLink exact to="/" className="menu-lien"><img src="../img/home.svg" 	alt="Home" className="img-menu"/>Home</NavLink>
+						
+							<NavLink exact to="/" className="menu-lien">
+								<img src="../img/home.svg" 	alt="Home" className="img-menu"/>
+								Home
+							</NavLink>
 
 							<NavLink exact to="/Game" className="menu-lien"><img src="../img/console.svg" alt="Game" className="img-menu"/>Game</NavLink>
 
@@ -62,4 +72,11 @@ const Navigation = () => {
 	);
 };
 
+
+/*
+							<NavLink exact to="/" className="menu-lien">
+								<img src="../img/home.svg" 	alt="Home" className="img-menu"/>
+								Home
+							</NavLink>
+ */
 export default Navigation;
