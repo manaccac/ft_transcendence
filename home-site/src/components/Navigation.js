@@ -23,7 +23,7 @@ const Navigation = () => {
 	function active(){
 		const tchat_button = document.getElementById('tchat-button');
 
-		tchat_button.classList.toggle('active');
+		tchat_button.classList.toggle('tchat-open');
 	}
 
 	return (
@@ -53,8 +53,9 @@ const Navigation = () => {
 				<li className="top-lien" id="profile"><a href="#">Log</a></li>
 				<li className="top-lien" id="useronline"> <img src="../img/user_icon.svg" alt="user_online"/> 2218</li>
 
-				<div id="tchat-button" onClick={active}>
-					<img src="../img/tchat.svg" alt="tchat" id="img_tchat"/>
+				<div id="tchat-button">
+					<img src="../img/tchat.svg" alt="tchat" id="img_tchat" onClick={active}/>
+					<span id="tchat-bar"></span>
 				</div>
 			</div>
 		</div>
