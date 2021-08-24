@@ -17,23 +17,12 @@ a {
 }
 
 /**/
-#menu-game {
-	text-decoration: none;
-	color: #C4B6AD;
-	margin-top: 3vh;
-	margin-left: 3vh;
-	font-size: 4vh;
-	display: flex;
-}
-
-#Game-block {
-	position: relative;
-	background-color: grey;
-	margin-top: 15vh;
-	margin-left: 20vw;
-	margin-bottom: 10vh;
-	width: 1600px;
-	height: 1000px;
-	border-radius: 3vh;
+.versus {
+	position: fixed;
+	width: 50%;
+	height: 50%;
+	margin-top: 25vh;
+	margin-left: 25%;
+	margin-right: 25%;
 }
 /**/
